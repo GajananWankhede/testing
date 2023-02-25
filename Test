@@ -1,0 +1,17 @@
+@Test
+void testCalAdd()
+{
+    Assertions.assertEquals( 4 , Calculator.add(2, 2));
+}
+
+@Test
+void testCalSubtract()
+{
+    Assertions.assertEquals( 2 , Calculator.subtract(4, 2));
+}
+
+@Test
+void testCalMultiply()
+{
+    Assertions.assertEquals( 4 , Calculator.multiply(2, 2));
+}
